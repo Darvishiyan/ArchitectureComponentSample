@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/ibAvatar"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle_gray"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_camera_alt_black_48dp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawableStart="@drawable/ic_person_c9c9c9_24dp"
+        android:drawablePadding="12dp"
+        android:gravity="start"
+        android:hint="Person Name"
+        android:paddingStart="12dp"
+        android:textColor="#666"
+        android:textColorHint="#c9c9c9"
+        tools:ignore="RtlSymmetry" />
+
+</LinearLayout>
